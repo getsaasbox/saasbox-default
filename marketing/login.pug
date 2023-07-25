@@ -32,7 +32,7 @@ html(lang='en')
                   span.text-gray-400.text-xs
                     span Forgot Password?
                     a.text-purple-600.hover_underline(href='/user/reset-password-email') Reset Password
-                  if (facebook_callback)
+                  //-if (facebook_callback)
                     a.mt-8.mb-4.p-4.flex.justify-center.items-center.border.rounded.hover_bg-gray-50(href='#')
                         img.mr-4(src=asset('marketing/atis-assets/social/facebook-logo.png') alt)
                         span.text-xs.text-gray-500.font-bold.transition.duration-200 Sign In with Facebook
@@ -40,7 +40,7 @@ html(lang='en')
                     a.p-4.flex.justify-center.items-center.border.rounded.hover_bg-gray-50(href='#')
                       img.mr-4(src=asset('marketing/atis-assets/social/google-logo.png') alt)
                       span.text-xs.text-gray-500.font-bold.transition.duration-200 Sign In with Google
-                  if (twitter_callback)
+                  //-if (twitter_callback)
                     a.p-4.flex.justify-center.items-center.border.rounded.hover_bg-gray-50(href='#')
                       img.mr-4(src=asset('marketing/atis-assets/social/twitter-logo.png') alt)
                       span.text-xs.text-gray-500.font-bold.transition.duration-200 Sign In with Twitter
